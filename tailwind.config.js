@@ -10,7 +10,8 @@ module.exports = {
         mg: {
           primary: "#082447",
           secondary: "#DF4041",
-          light: "#E0E0E0"
+          light: "#E0E0E0",
+          dark: "rgba(122, 122, 122, 0.48)"
         }
     },
     },
