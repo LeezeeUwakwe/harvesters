@@ -6,12 +6,13 @@ $('.carusol').slick({
       {
         breakpoint: 768,
         settings: {
-          arrows: true
+          arrows: false
         }
       }
     ]
   })
   
+
 
   $('.slider').slick({
     dots: false,
@@ -29,6 +30,7 @@ $('.carusol').slick({
           dots: true
         }
       },
+     
       {
         breakpoint: 600,
         settings: {
@@ -40,7 +42,8 @@ $('.carusol').slick({
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows: false
         }
       }
       // You can unslick at a given breakpoint now by adding:
